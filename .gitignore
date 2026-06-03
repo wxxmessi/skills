@@ -1,0 +1,38 @@
+# ===== OS / IDE 垃圾 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ===== 临时/备份文件 =====
+*.tmp
+*.bak
+*.swp
+*~
+.~*
+~$*
+
+# ===== 日志 =====
+*.log
+
+# ===== 本地秘密（公开仓务必双保险）=====
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*
+*-secret.*
+*.private.*
+
+# ===== 私密草稿（永不公开）=====
+.local/
+*.local.*
+草稿/
+draft-private/
+
+# ===== Office 临时锁文件 =====
+~$*.docx
+~$*.xlsx
+~$*.pptx

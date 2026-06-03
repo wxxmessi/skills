@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "type": "skill",
+  "visibility": "public",
+  "owner": "wxxmessi",
+  "updated": "2026-06-03",
+  "description": "公开技能索引。由同步脚本扫描各 .md 的 frontmatter 自动生成。",
+  "schema": {
+    "id": "skill.<host>.<filename-without-ext>",
+    "fields": [
+      "id", "type", "host", "tags", "triggers", "visibility", "version", "updated"
+    ]
+  },
+  "items": []
+}
