@@ -15,6 +15,7 @@
 | 文件 | 用途 |
 |---|---|
 | [`personal-ai-stack.md`](personal-ai-stack.md) | **个人 AI 数据中枢使用手册**——本系统的元 SOP，任何"内容放哪、frontmatter 怎么写、工具怎么接"的疑问先看它 |
+| [`restore-doc-from-screenshot.md`](restore-doc-from-screenshot.md) | **截图 → 跨平台文档 1:1 还原**——把钉钉/飞书/Notion/语雀的截图整成另一个平台可直接粘贴的内容（含 ASCII art 对齐、表格 cell 换行坑） |
 
 ## 文件命名
 
