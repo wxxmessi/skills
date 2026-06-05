@@ -7,7 +7,7 @@ triggers:
   - "同步知识库到 github"
   - "把 E:\\知识库 推送到 github"
   - "推送记忆 / 技能仓"
-  - "sync foundry / memory-private / skills / private / invest-lab"
+  - "sync foundry / memory-private / skills / private / invest-lab / redbook"
   - "把本地资产仓推送到 GitHub"
   - "备份个人 AI 数据中枢"
 visibility: public
@@ -30,6 +30,7 @@ supersedes: skill.cursor.sync-knowledge-to-github
 | `E:\技能-私人` | `wxxmessi/private` | private |
 | `E:\投资Lab` | `wxxmessi/invest-lab` | private |
 | `E:\投资Lab代码` | `wxxmessi/invest-lab-code` | private |
+| `E:\小红书运营` | `wxxmessi/redbook` | private |
 
 ## 何时用
 

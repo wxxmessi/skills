@@ -3,10 +3,10 @@
     Sync local asset/project repos to their GitHub remotes in one command.
 
 .DESCRIPTION
-    Generic sync script for any of the 6 personal repos (E:\知识库, E:\记忆,
-    E:\技能, E:\技能-私人, E:\投资Lab, E:\投资Lab代码). Verifies the repo,
-    stages all changes, commits with the supplied (or auto-generated) message,
-    and pushes to origin/main.
+    Generic sync script for any of the 7 personal repos (E:\知识库, E:\记忆,
+    E:\技能, E:\技能-私人, E:\投资Lab, E:\投资Lab代码, E:\小红书运营).
+    Verifies the repo, stages all changes, commits with the supplied (or
+    auto-generated) message, and pushes to origin/main.
 
 .PARAMETER Path
     Local repo path. Required unless -All is specified.
@@ -15,7 +15,7 @@
     Commit message. Defaults to "更新: <yyyy-MM-dd HH:mm>".
 
 .PARAMETER All
-    Sync all 6 known repos in sequence.
+    Sync all 7 known repos in sequence.
 
 .EXAMPLE
     powershell -ExecutionPolicy Bypass -File sync-asset.ps1 -Path E:\知识库
@@ -44,7 +44,8 @@ $KnownRepos = @(
     'E:\技能',
     'E:\技能-私人',
     'E:\投资Lab',
-    'E:\投资Lab代码'
+    'E:\投资Lab代码',
+    'E:\小红书运营'
 )
 
 function Write-Step([string]$Text) {
