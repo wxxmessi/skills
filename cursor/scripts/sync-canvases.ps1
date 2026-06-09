@@ -8,7 +8,7 @@
     这个目录不在任何 git 仓里，重装 / 清缓存 / 切电脑可能丢失。
 
     本脚本按白名单把它们镜像到两个 git 仓的归档目录：
-      - 通用知识：E:\知识库\canvases\          （wxxmessi/knowledge-base, public）
+      - 通用知识：E:\知识库\canvases\          （wxxmessi/foundry, private）
       - 公司项目：E:\技能-私人\company-canvases\（wxxmessi/private, private）
       - 个人兴趣 / 草稿：默认跳过
 
@@ -36,7 +36,7 @@ $ErrorActionPreference = 'Stop'
 
 # ====== 白名单 ======
 
-# 镜像到 E:\知识库\canvases\（public）
+# 镜像到 E:\知识库\canvases\（wxxmessi/foundry，private；变量名 Public 仅指"通用知识库"）
 $PublicTargets = @(
     'rag-overview.canvas.tsx',
     'agent-memory-systems.canvas.tsx',
@@ -46,13 +46,13 @@ $PublicTargets = @(
     'gui-agent-toolchain-recommendation.canvas.tsx',
     'personal-ai-stack-design.canvas.tsx',
     'spain-worldcup-2026.canvas.tsx',
-    'worldcup-2026-overview.canvas.tsx'
+    'worldcup-2026-overview.canvas.tsx',
+    '质检平台产品全景.canvas.tsx'
 )
 
-# 镜像到 E:\技能-私人\company-canvases\（private，含公司信息）
+# 镜像到 E:\技能-私人\company-canvases\（wxxmessi/private，含公司信息）
 $PrivateOnly = @(
-    'xinfei-vqc-product-analysis.canvas.tsx',
-    '质检平台产品全景.canvas.tsx'
+    'xinfei-vqc-product-analysis.canvas.tsx'
 )
 
 # 显式跳过（不入任何仓）
