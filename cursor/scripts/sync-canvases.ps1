@@ -51,7 +51,8 @@ $PublicTargets = @(
 
 # 镜像到 E:\技能-私人\company-canvases\（private，含公司信息）
 $PrivateOnly = @(
-    'xinfei-vqc-product-analysis.canvas.tsx'
+    'xinfei-vqc-product-analysis.canvas.tsx',
+    '质检平台产品全景.canvas.tsx'
 )
 
 # 显式跳过（不入任何仓）
