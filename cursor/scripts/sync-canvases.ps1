@@ -47,6 +47,7 @@ $PublicTargets = @(
     'personal-ai-stack-design.canvas.tsx',
     'spain-worldcup-2026.canvas.tsx',
     'worldcup-2026-overview.canvas.tsx',
+    'matchday-mexico-southafrica.canvas.tsx',
     '质检平台产品全景.canvas.tsx'
 )
 
