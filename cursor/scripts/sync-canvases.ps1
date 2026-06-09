@@ -44,7 +44,9 @@ $PublicTargets = @(
     'agent-tag-system-design.canvas.tsx',
     'investment-agent-learning-plan.canvas.tsx',
     'gui-agent-toolchain-recommendation.canvas.tsx',
-    'personal-ai-stack-design.canvas.tsx'
+    'personal-ai-stack-design.canvas.tsx',
+    'spain-worldcup-2026.canvas.tsx',
+    'worldcup-2026-overview.canvas.tsx'
 )
 
 # 镜像到 E:\技能-私人\company-canvases\（private，含公司信息）
@@ -53,9 +55,7 @@ $PrivateOnly = @(
 )
 
 # 显式跳过（不入任何仓）
-$Skip = @(
-    'spain-worldcup-2026.canvas.tsx'
-)
+$Skip = @()
 
 $PublicDest  = 'E:\知识库\canvases'
 $PrivateDest = 'E:\技能-私人\company-canvases'
