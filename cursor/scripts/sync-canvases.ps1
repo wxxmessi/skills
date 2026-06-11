@@ -89,6 +89,7 @@ $PublicTargets = @(
     'observe-japan.canvas.tsx',
     'observe-scotland.canvas.tsx',
     'observe-simultaneous.canvas.tsx',
+    'observe-fifa1-curse.canvas.tsx',
     'profile-drogba.canvas.tsx',
     'profile-dzeko.canvas.tsx',
     'profile-haaland.canvas.tsx',
